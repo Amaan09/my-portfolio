@@ -1,0 +1,19 @@
+.vertical-navbar {
+  width: 13vh;
+  height: 100vh;
+
+  .mat-card {
+    background: #212121;
+    color: white;
+    height: 100vh;
+
+    span {
+      font-size: 15px;
+      cursor: pointer;
+
+      .mat-icon {
+        font-size: 50px;
+      }
+    }
+  }
+}

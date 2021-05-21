@@ -7,10 +7,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { VerticalNavbarComponent } from './vertical-navbar/vertical-navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VerticalNavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +21,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     BrowserAnimationsModule,
     FlexLayoutModule,
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
